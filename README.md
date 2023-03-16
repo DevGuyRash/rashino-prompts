@@ -41,3 +41,4 @@ the system to have it integrated into the prompt.
 - [AI Tutor](prompts/ai_tutor.md)
   - Being replaced with an entirely new one soon.
 - [Advanced Note-Taker](prompts/advanced_note_taker.md)
+- [WebChatGPT](prompts/webchatgpt.md)
