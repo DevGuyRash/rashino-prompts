@@ -32,7 +32,7 @@ specifying the properties and functions of each program. This allows me to
 copy/paste pre-existing prompts (and plantuml assets) to build new prompts
 with minimum effort.
 
-For example, I created a "Plantuml Intializer" prompt that allows plantuml
+For example, I created a "Plantuml Initializer" prompt that allows plantuml
 diagrams to be used. From there, I could drag and drop the "menu" program into
 the system to have it integrated into the prompt.
 

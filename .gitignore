@@ -47,8 +47,6 @@
 # Web P
 *.webp
 
-# Portable Network Graphics
-*.png
 
 # Animated Portable Network Graphics
 *.apng
@@ -59,10 +57,6 @@
 # Tagged Image File Format
 *.tiff
 *.tif
-
-# Scalable Vector Graphics
-*.svg
-*.svgz
 
 # Portable Document Format
 *.pdf
