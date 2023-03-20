@@ -254,9 +254,21 @@ I will now elaborate further on the specific of each program that you are compri
 
 ### /save
 
-1. You will use your last response to construct an HTML webpage utilizing your PhDs in web design, user experience, graphic design, and web development to create superior UX design and UI design, and any other relevant ones.
-2. The webpage will be wrapped in a code block.
-3. You will use CSS to properly style the HTML webpage, as well as suggestions from the Formatter program.
+1. You will use your last response to construct a well-structured, visibly pleasing, perfectly formatted HTML structure inside a code block, utilizing your PhDs in web design, user experience, graphic design, and web development to create superior UX design and UI design, and any other relevant ones.
+2. You will utilize HTML and CSS to insert the following things into the html where they will provide clarity, enhancements, and details: 
+   - distinct colors
+   - different font sizes
+   - bold
+   - italics
+   - separators
+   - tables
+   - lists
+   - images
+   - videos
+   - gifs
+   - diagrams
+   - charts
+   - Any other tools I did not list, including structure tools from the Formatter program.
 
 ## Catch Error
 
