@@ -1,19 +1,15 @@
 # Table of Contents
 
 <!-- TOC -->
-
 * [Table of Contents](#table-of-contents)
 * [Prompt Information](#prompt-information)
-    * [Prompt Structure](#prompt-structure)
-        * [Prompt Template](#prompt-template)
-    * [Mandatory Control Tokens](#mandatory-control-tokens)
+  * [Prompt Structure](#prompt-structure)
+    * [Prompt Template](#prompt-template)
+  * [Mandatory Control Tokens](#mandatory-control-tokens)
 * [Control Token Options](#control-token-options)
-* [With Descriptions](#with-descriptions)
-    * [Without Descriptions](#without-descriptions)
-    * [Without Options or Formatting](#without-options-or-formatting)
+  * [Control Token Lists](#control-token-lists)
 * [Prompt Generators](#prompt-generators)
-    * [Create Prompt](#create-prompt)
-
+  * [Prompt Creator](#prompt-creator)
 <!-- TOC -->
 
 # Prompt Information
@@ -39,16 +35,18 @@ and _optionally_ convert it to natural language to be used again later.
 
 **Control Tokens**
 
-- **[Purpose]** Option
-- **[Audience]** Option
-- **[Content Type]** Option
-- **[Tone]** Option
-- **[Formality]** Option
-- **[Language]** Option
-- **[Length]** Option
-- **[Role]** Option
-- **[Writing Approach]** Option
-- **[Additional relevant control tokens]** Option
+* **[Persona]** option
+* **[Objective]** option
+* **[Target Audience]** option
+* **[Output Format]** option
+* **[Emotional Tone]** option
+* **[Formality Level]** option
+* **[Writing Style]** option
+* **[Constraints]** option
+  * **[Token]** Option
+  * **[Token]** Option
+  * Etc.
+* **[Additional relevant control tokens]** Option
 
 **Keywords:** (User text)
 
@@ -96,15 +94,14 @@ optimal results.
 
 ## Mandatory Control Tokens
 
+* Persona
 * Objective
 * Target Audience
 * Output Format
 * Emotional Tone
 * Formality Level
-* Language
-* Output Length
-* Persona
 * Writing Style
+* Constraints
 
 # Control Token Options
 
@@ -119,40 +116,31 @@ These are the possible control tokens. Please feel free to expand the list, sect
 - [Without Descriptions](token_options_without_desc.md)
 - [Without Formatting](token_options_without_any.md)
 
-# With Descriptions
-
-## Without Descriptions
-
-## Without Options or Formatting
-
 # Prompt Generators
 
-## Create Prompt
+## Prompt Creator
 
-Generate a prompt to [PURPOSE]. The prompt should be optimized for a natural language processing large language model in
-a format that is similar to the example output.
+Your task is to craft a specialized and detail-rich prompt for a powerful language model. Choose the appropriate control tokens and relevant keywords, filling in the template below. The prompt should be optimized for a natural language processing large language model in a format like the example output. The purpose of the prompt is to [PURPOSE].
 
-You will select the control tokens and keywords that will be used to generate the prompt.
-
-Here is a list of control tokens for you to choose from and sections. If there is a more effective one that you can
-think of, use that instead for the control token section.
-
-You can also add additional control tokens per section if you think they are necessary. Having multiple control tokens
-per section is fine, but try to use only one or two per section.
+You can also add additional control tokens per section if you think they are necessary. Having multiple control tokens per section is fine but try to use only one or two per section. You can also add more sections if you think they are necessary.
 
 Mandatory control tokens:
 
+* Persona
 * Objective
-    * Target Audience
-    * Output Format
-    * Emotional Tone
-    * Formality Level
-    * Language
-    * Output Length
-    * Persona
-    * Writing Style
+* Target Audience
+* Output Format
+* Emotional Tone
+* Formality Level
+* Writing Style
+* Constraints
 
-List of possible control tokens:
+Additional control tokens (ignore if empty):
+
+* [Constraints]
+  * 
+
+List of control tokens:
 
 1. Objective
     * Inform
@@ -283,27 +271,29 @@ Example output:
 
 """
 
-**System Message:** (Text)
+System Message: (Text)
 
-**Instructions:** (Text)
+Instructions: (Text)
 
-**Control Tokens**
+Control Tokens
 
-* **[Objective]** option
-    * **[Target Audience]** option
-    * **[Output Format]** option
-    * **[Emotional Tone]** option
-    * **[Formality Level]** option
-    * **[Language]** option
-    * **[Output Length]** option
-    * **[Persona]** option
-    * **[Writing Style]** option
-    * **[Token]** Option
-        * Add tokens from the list or your own knowledge as necessary.
+* [Persona] option
+* [Objective] option
+* [Target Audience] option
+* [Output Format] option
+* [Emotional Tone] option
+* [Formality Level] option
+* [Writing Style] option
+* [Constraints] option
+  * [Token] Option
+  * [Token] Option
+  * etc.
+* [Token] Option
+    * Add tokens from the list or your own knowledge, as necessary.
 
-**Keywords:** [Text]
+Keywords: [Text]
 
-**Example Output:**
+Example Output
 
 ~~~
 (Text)
