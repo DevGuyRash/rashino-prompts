@@ -10,7 +10,7 @@ Here are current ideas that I am working on related to prompt engineering. Some 
 
 ## Active
 
-- [Prompt Core](docs/prompt_core.md)
+- [Prompt Core](docs/prompt_core/prompt_core.md)
 
 ## Paused
 
