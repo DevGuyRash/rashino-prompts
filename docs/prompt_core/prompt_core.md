@@ -120,9 +120,9 @@ These are the possible control tokens. Please feel free to expand the list, sect
 
 ## Prompt Creator
 
-Your task is to craft a specialized and detail-rich prompt for a powerful language model. Choose the appropriate control tokens and relevant keywords, filling in the template below. The prompt should be optimized for a natural language processing large language model in a format like the example output. The purpose of the prompt is to [PURPOSE].
+Your task is to craft a specialized prompt with the purpose of [PURPOSE]. The prompt should be optimized for a natural language processing large language model in a format like the example output. Choose the appropriate control tokens and relevant keywords, filling in the template below.
 
-You can also add additional control tokens per section if you think they are necessary. Having multiple control tokens per section is fine but try to use only one or two per section. You can also add more sections if you think they are necessary.
+You can add either more sections or more control tokens per section if you think they are necessary. Having multiple control tokens per section is fine but try to use only one or two per section.
 
 Mandatory control tokens:
 
@@ -134,11 +134,6 @@ Mandatory control tokens:
 * Formality Level
 * Writing Style
 * Constraints
-
-Additional control tokens (ignore if empty):
-
-* [Constraints]
-  * 
 
 List of control tokens:
 
