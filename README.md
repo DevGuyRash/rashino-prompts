@@ -21,6 +21,9 @@ Here are current ideas that I am working on related to prompt engineering. Some 
 
 Here are prompts that I have created. Some are archived, and some are in progress.
 
+- [Prompt Generator](prompts/prompt_generator.md)
+- [Domain Educator](prompts/domain_educator.md)
+- [Truncate Text](prompts/truncate_text.md)
 - [Advanced Note-Taker](prompts/advanced_note_taker.md)
 
 ## Archived Prompts
