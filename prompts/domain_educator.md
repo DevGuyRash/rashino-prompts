@@ -1,27 +1,54 @@
-Provide a high-level overview of the key terminology, specifications, best practices, common knowledge, and other key factors relevant to {SUBJECT} that are necessary for producing an expert prompt complete with control tokens, keywords, example output, and instructions.
+Provide a high-level, yet sufficiently detailed, overview of the key aspects necessary for producing an expert-level prompt complete with control tokens, keywords, example output, and instructions for the field of prompt engineering for large language models.
 
-Please decide which subtopics below are relevant and include as much info as possible for each one. You can also add more subtopics if necessary:
+Given the target audience of beginners with little to no basic understanding, decide which subtopics below are relevant and provide as much pertinent information and bullet points as possible. Feel free to add more subtopics if necessary:
 
-* Terminology, jargon, and {SUBJECT}-specific acronyms
-* Common {SUBJECT} tools, technologies, and software platforms
-* Best practices and industry standards for {SUBJECT}
-* Common guidelines, expectations, and procedures in {SUBJECT}
-* Key performance indicators (KPIs) and metrics used in {SUBJECT}
-* Emerging trends and technologies shaping the future of {SUBJECT}
-* Industry-specific laws, regulations, and compliance requirements in {SUBJECT}
-* Quality assurance and control processes in {SUBJECT}
-* Project management methodologies and frameworks used in {SUBJECT}
-* Data analysis, interpretation, and visualization techniques in {SUBJECT}
-* Information security, privacy, and data protection considerations in {SUBJECT}
-* Ethics, social responsibility, and sustainability practices in {SUBJECT}
-* Talent acquisition, retention, and management strategies in {SUBJECT}
-* Financial analysis, reporting, and budgeting in {SUBJECT}
-* Risk assessment, mitigation, and management in {SUBJECT}
-* Innovation, creativity techniques, and problem-solving methodologies in {SUBJECT}
-* Cultural awareness, diversity management, and inclusivity in {SUBJECT}
-* Collaboration and effective communication strategies in {SUBJECT}
-* Recent developments, news, and advancements in {SUBJECT}
-* Case studies or real-world examples demonstrating the application of {SUBJECT} knowledge and practices
-* Recommended resources (books, websites, research papers) for further exploration of {SUBJECT}
+1. Terminology, Jargon, and Acronyms
+2. Fundamental Concepts, Principles, and Theories
+3. Essential Skills and Competencies
+4. Regulations and Compliance
+5. Tools, Technologies, and Software Platforms
+6. Key Tasks and Responsibilities
+7. Standard Workflows and Procedures
+8. Project Management Frameworks
+9. Quality Assurance and Control Processes
+10. Data Analysis and Visualization Techniques
+11. Information Security and Privacy Considerations
+12. Financial Management
+13. Risk Assessment and Mitigation
+14. Human Resource Strategies
+15. Innovation and Problem-solving Techniques
+16. Collaboration and Communication Strategies
+17. Career Opportunities and Job Roles
+18. Key Performance Indicators (KPIs) and Metrics
+19. Common Challenges and Pitfalls
+20. Mistakes and Misconceptions
+21. Best Practices and Industry Standards
+22. Ethics, Social Responsibility, and Sustainability Practices
+23. Diversity, Inclusion, and Cultural Awareness
+24. Current and Emerging Trends
+25. Recent Developments and Advancements
+26. Case Studies and Real-world Examples
+27. Recommended Resources and Further Reading
+28. Influential Individuals and Organizations
 
-Please tailor the information to the {SUBJECT} domain, keeping in mind the target audience (beginners).
+The goal is to facilitate efficient and effective learning of the core components of the niche/industry. Be as specific as possible and provide as much relevant information, topics, and subtopics as possible.
+
+- For all subtopics you decide to include, please expand upon them within the context instead of just listing them. 
+- Always prefer bullet points over paragraphs and always prefer as many bullet points as possible. Try to include a minimum of 5-10 per subtopic, this is very important. Do not include low-quality or irrelevant bullet points.
+  - Use bold, italics, and other formatting tools.
+- The more information you provide, the better the results will be.
+
+Output Format:
+
+**Subject-Matter**
+
+1. **topic**
+   * Relevant information
+   * Relevant information
+   * Relevant information
+   * Etc.
+2. **topic**
+   * Relevant information
+   * Relevant information
+   * Relevant information
+   * Etc.

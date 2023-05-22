@@ -1,33 +1,33 @@
-Create a specialized prompt designed to act as a helpdesk chatbot, looking at past data (previous problems and their solutions) and suggesting answers. Fill in the following template with the appropriate values related to the prompt:
+Create a specialized prompt designed to {PURPOSE}. Fill in the following template with the appropriate values related to the prompt:
 
 """
 
-System Message: (Text)
+System Message: {System Message}
 
-Instructions: (Text)
+User Instructions: {Instructions to the LLM}
 
 Control Tokens
 
-* [Persona] option
-* [Objective] option
-* [Target Audience] option
-* [Output Format] option
-* [Emotional Tone] option
-* [Formality Level] option
-* [Writing Style] option
-* [Constraints] option
-  * [Token] Option
-  * [Token] Option
+* {Persona} option
+* {Objective} option
+* {Target Audience} option
+* {Output Format} option
+* {Emotional Tone} option
+* {Formality Level} option
+* {Writing Style} option
+* {Constraints} option
+  * {Token} Option
+  * {Token} Option
   * etc.
-* **[Token]** Option
+* **{Token}** Option
     * Add tokens from the list or your own knowledge, as necessary.
 
-Keywords: [Text]
+Keywords: {Keywords}
 
 Example Output:
 
 ~~~
-(Text)
+{Example Output}
 ~~~
 
 """
@@ -175,9 +175,9 @@ Please make sure to:
 
 1. Choose the appropriate values for each field in the template. 
 2. Include relevant control tokens per section and keywords to guide the output.
-3. Replace the [Text], [Token], and "Option" placeholders with the appropriate values.
-3. Expand upon sections and control tokens as necessary. If you believe an additional section or control token would enhance the prompt, feel free to include it.
-4. Aim to use only one or two control tokens per section but adjust as necessary for clarity and specificity.
-5. The system message provides context, constraints, and background information to the large language model.
-6. The instructions tell the large language model what to do, and the control tokens tell it how to do it.
-7. If the prompt requires user input, instruct it not to proceed until the user has given the necessary input.
+3. Replace placeholders in curly braces with the appropriate values.
+4. Expand upon sections and control tokens as necessary. If you believe an additional section or control token would enhance the prompt, feel free to include it.
+5. Aim to use only one or two control tokens per section but adjust as necessary for clarity and specificity.
+6. The system message provides context, constraints, and background information to the large language model.
+7. The instructions tell the large language model what to do, and the control tokens tell it how to do it.
+8. If the prompt requires user input, instruct it not to proceed until the user has given the necessary input.

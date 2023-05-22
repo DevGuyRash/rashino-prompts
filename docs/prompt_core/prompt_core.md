@@ -8,8 +8,7 @@
   * [Mandatory Control Tokens](#mandatory-control-tokens)
 * [Control Token Options](#control-token-options)
   * [Control Token Lists](#control-token-lists)
-* [Prompt Generators](#prompt-generators)
-  * [Prompt Creator](#prompt-creator)
+* [Prompts](#prompts)
 <!-- TOC -->
 
 # Prompt Information
@@ -35,18 +34,18 @@ and _optionally_ convert it to natural language to be used again later.
 
 **Control Tokens**
 
-* **[Persona]** option
-* **[Objective]** option
-* **[Target Audience]** option
-* **[Output Format]** option
-* **[Emotional Tone]** option
-* **[Formality Level]** option
-* **[Writing Style]** option
-* **[Constraints]** option
-  * **[Token]** Option
-  * **[Token]** Option
+* **{Persona}** option
+* **{Objective}** option
+* **{Target Audience}** option
+* **{Output Format}** option
+* **{Emotional Tone}** option
+* **{Formality Level}** option
+* **{Writing Style}** option
+* **{Constraints}** option
+  * **{Token}** Option
+  * **{Token}** Option
   * Etc.
-* **[Additional relevant control tokens]** Option
+* **{Additional relevant control tokens}** Option
 
 **Keywords:** (User text)
 
