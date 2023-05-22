@@ -28,32 +28,32 @@ and _optionally_ convert it to natural language to be used again later.
 
 ## Prompt Structure
 
-**System Message:** (User text)
-
-**Instructions:** (User text)
-
-**Control Tokens**
-
-* **{Persona}** option
-* **{Objective}** option
-* **{Target Audience}** option
-* **{Output Format}** option
-* **{Emotional Tone}** option
-* **{Formality Level}** option
-* **{Writing Style}** option
-* **{Constraints}** option
-  * **{Token}** Option
-  * **{Token}** Option
-  * Etc.
-* **{Additional relevant control tokens}** Option
-
-**Keywords:** (User text)
-
-**Example Output:**
-
-~~~
-Example output
-~~~
+```json
+{
+  "System Message": "{System Message}",
+  "User Instructions": "{Instructions to the LLM}",
+  "Control Tokens": {
+    "Persona": "{CONTROL TOKEN}",
+    "Objective": "{CONTROL TOKEN}",
+    "Target Audience": "{CONTROL TOKEN}",
+    "Output Format": "{CONTROL TOKEN}",
+    "Output Length": "{CONTROL TOKEN}",
+    "Emotional Tone": "{CONTROL TOKEN}",
+    "Formality Level": "{CONTROL TOKEN}",
+    "Writing Style": "{CONTROL TOKEN}",
+    "Constraints": {
+      "Token Name": "{CONTROL TOKEN}",
+      "Token Name": "{CONTROL TOKEN}"
+    }
+  },
+  "Keywords": [
+    "keyword",
+    "keyword",
+    "keyword"
+  ],
+  "Example Output": "{Example output centered around keywords, heavily influenced by the control tokens and instructions}"
+}
+```
 
 ### Prompt Template
 
@@ -97,6 +97,7 @@ optimal results.
 * Objective
 * Target Audience
 * Output Format
+* Output Length
 * Emotional Tone
 * Formality Level
 * Writing Style
