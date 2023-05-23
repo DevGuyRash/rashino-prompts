@@ -94,6 +94,7 @@ optimal results.
 ## Mandatory Control Tokens
 
 * Persona
+* Background
 * Objective
 * Target Audience
 * Output Format
