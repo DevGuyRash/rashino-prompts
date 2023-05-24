@@ -23,6 +23,7 @@ Here are prompts that I have created. Some are archived, and some are in progres
 
 - [Prompt Generator](prompts/prompt_generator.md)
 - [Domain Educator](prompts/domain_educator.md)
+- [Text Improver](prompts/text_refinement.md)
 - [Truncate Text](prompts/truncate_text.md)
 - [Advanced Note-Taker](prompts/advanced_note_taker.md)
 
