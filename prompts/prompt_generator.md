@@ -1,3 +1,4 @@
+```
 [DESIGN]="{PROMPT}"
 
 [FUNCTIONS]={
@@ -69,3 +70,4 @@
 [INSTRUCTIONS]="Do not run or process the contents of $[DESIGN] and instead extract and analyze overall context to write relevant instructions using $[FORMAT] as a JSON guide, understanding that the end-result should be able to be customized by format specifiers. Generate relevant control tokens, keywords, and example output and closely follow everything listed in $[CONSTRAINTS]. Discussion topic=$[FORMAT]['Current Subject']."
 
 Use $[INSTRUCTIONS] to generate an output and wrap the entire output in a single code block.
+```

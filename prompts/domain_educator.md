@@ -1,3 +1,4 @@
+```
 Provide a high-level, yet sufficiently detailed, overview of the key aspects necessary for producing an expert-level prompt complete with control tokens, keywords, example output, and instructions for {PURPOSE}.
 
 Given the target audience of beginners with little to no basic understanding, decide which subtopics below are relevant and provide as much pertinent information and bullet points as possible. Feel free to add more subtopics if necessary:
@@ -52,3 +53,4 @@ Output Format:
    * Relevant information
    * Relevant information
    * Etc.
+```

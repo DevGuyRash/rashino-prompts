@@ -1,3 +1,4 @@
+```
 1. Extract Core idea & Goal
 2. Extract Context
 3. Extract Key Sentences & Keywords
@@ -26,3 +27,4 @@ Text to improve:
 ~~~
 {TEXT}
 ~~~
+```

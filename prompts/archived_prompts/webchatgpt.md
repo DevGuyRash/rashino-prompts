@@ -1,3 +1,4 @@
+```
 Web search results:
 
 {web_results}
@@ -32,3 +33,4 @@ I have already provided you with the query to reply to and the relevant web sear
 6. Additional Information:
     - Provide a conclusion or conclusion section at the very end that synthesizes the key takeaways from the notes.
    - Provide a References footer section that includes all references made in the form of: <number>:Link to reference
+```
