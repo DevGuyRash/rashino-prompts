@@ -14,6 +14,8 @@ It's essentially discovering the `unknown unknown` concepts that the author is u
 
 For example, someone may say, "I want you to use bullet points with a left bracket, space, and right bracket. Then the text will follow and you will do this for the rest of the response." It would be more accurate to say, "I want you to respond using markdown task lists." If the author does not know of the concept of markdown task lists, they will likely have to write a lot more text to accomplish the same task.
 
+To use this prompt, replace `[TEXT FOR ANALYSIS]` with the text you want to analyze.
+
 `````md
 Act as a research professor performing prompt ontology mapping using git merge conflict visualization. 
 
