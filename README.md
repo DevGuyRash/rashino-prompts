@@ -27,7 +27,7 @@ Focus: General-use, analysis, reasoning, and coding prompts. Contributions welco
 
 ### In-Progress Prompts
 
-- [vanilla-coding-v1.4.md](prompts/in-progress/vanilla-coding-v1.4.md): Experimental coding variant with context-gathering loop "bug/feature".
+- _N/A_: Prompts in-progress are currently remaining local to my own use until I'm ready to share them.
 
 ### Documentation
 
