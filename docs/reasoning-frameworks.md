@@ -18,7 +18,7 @@ Raw prompt file: [../prompts/current/reasoning/hqrn_v1.0.md](../prompts/current/
 
 ### Cognitive Cycle
 
-- **What It's Good At**: Rigorous, verifiable reasoning with tools/recursion. Strong for fact-heavy research, planning, or debugging-includes adversarial critiques for robustness.
+- **What It's Good At**: Rigorous, verifiable reasoning with tools/recursion. Strong for fact-heavy research, planning, or debugging-includes adversarial critiques for robustness. The v2.3.3 update includes enhanced neurosymbolic enforcement and refined error containment protocols for even greater reliability and precision.
 - **When to Use**:
   - Complex analytical tasks (e.g., research, multi-step planning).
   - When verification/tools are key (e.g., on reasoning models like o3 for deep iteration).
@@ -26,7 +26,7 @@ Raw prompt file: [../prompts/current/reasoning/hqrn_v1.0.md](../prompts/current/
   - Avoid for simple creativity (too verbose/rigid).
 - **Example Usage**: Use for queries like "Plan a virtual conference with critiques."
 
-Raw prompt file: [../prompts/current/reasoning/vanilla_reasoning_v2.3.md](../prompts/current/reasoning/vanilla_reasoning_v2.3.md)
+Raw prompt file: [../prompts/current/reasoning/vanilla_reasoning_v2.3.3.md](../prompts/current/reasoning/vanilla_reasoning_v2.3.3.md)
 
 ### Comparisons and General Tips
 

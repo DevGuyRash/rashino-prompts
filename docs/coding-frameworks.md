@@ -4,16 +4,16 @@
 
 This document covers coding-specific reasoning frameworks: **Vanilla Coding v2.0** and **Vanilla Coding v1.4**. These build on neurosymbolic cycles for code tasks (e.g., Git workflows, TDD). v1.4 has a documented "bug" that's useful as a feature in agentic tools.
 
-### Vanilla Coding v2.0
+### Vanilla Coding v2.0.3
 
-- **What It's Good At**: Structured coding with tools/recursion, Git enforcement, and TDD. Ideal for development, debugging, or planning code changes-emphasizes verification and error handling.
+- **What It's Good At**: Structured coding with tools/recursion, Git enforcement, and TDD. Ideal for development, debugging, or planning code changes-emphasizes verification and error handling. The v2.0.3 update includes enhanced neurosymbolic enforcement, refined error containment protocols, and improved Git workflow integration for even greater reliability and precision.
 - **When to Use**:
   - Coding tasks (e.g., fixing bugs, building features).
   - On high-quality reasoning models (e.g., Grok 4, o3) for robust automation; on non-reasoning for added logic.
   - Avoid for non-code creativity (too prescriptive).
 - **Example Usage**: System prompt for "Implement a feature with tests."
 
-Raw prompt file: [../prompts/current/coding/vanilla_coding_v2.0.md](../prompts/current/coding/vanilla_coding_v2.0.md)
+Raw prompt file: [../prompts/current/coding/vanilla_coding_v2.0.3.md](../prompts/current/coding/vanilla_coding_v2.0.3.md)
 
 ### Vanilla Coding v1.4
 

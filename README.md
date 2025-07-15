@@ -20,8 +20,8 @@ Focus: General-use, analysis, reasoning, and coding prompts. Contributions welco
 ### Current Prompts
 
 - [hqrn_v1.0.md](prompts/current/reasoning/hqrn_v1.0.md): HoloFractal Quantum Reasoning Nexus (creative/exploratory).
-- [vanilla_reasoning_v2.3.md](prompts/current/reasoning/vanilla_reasoning_v2.3.md): 8-step cycle for rigorous reasoning.
-- [vanilla_coding_v2.0.md](prompts/current/coding/vanilla_coding_v2.0.md): Structured coding framework with Git/TDD.
+- [vanilla_reasoning_v2.3.3.md](prompts/current/reasoning/vanilla_reasoning_v2.3.3.md): 8-step cycle for rigorous reasoning.
+- [vanilla_coding_v2.0.3.md](prompts/current/coding/vanilla_coding_v2.0.3.md): Structured coding framework with Git/TDD.
 - [vanilla_coding_v1.4.md](prompts/current/coding/vanilla_coding_v1.4.md): Experimental coding variant with context-gathering loop "bug/feature".
 - [prompt_analysis.md](prompts/current/prompt_analysis.md): Analyzes other prompts for improvements.
 
